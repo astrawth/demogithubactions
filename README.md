@@ -1,4 +1,5 @@
-# demogithubactions
+
+[![Demo Python Application test with Github Actions](https://github.com/astrawth/demogithubactions/actions/workflows/main.yml/badge.svg)](https://github.com/astrawth/demogithubactions/actions/workflows/main.yml)# demogithubactions
 
 Demo for Cloud computing class
 
