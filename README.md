@@ -1,6 +1,8 @@
 
 [![Demo Python Application test with Github Actions](https://github.com/astrawth/demogithubactions/actions/workflows/main.yml/badge.svg)](https://github.com/astrawth/demogithubactions/actions/workflows/main.yml)# demogithubactions
 
+[Loom Video of CI Demo](https://www.loom.com/share/581af99f85ce4035bdb4f45979057873)
+
 Demo for Cloud computing class
 
 ## Steps for Creating Project
