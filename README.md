@@ -4,7 +4,6 @@
 Demo for Cloud computing class
 
 ## Steps for Creating Project
-For each environment AWS, Azure, and GCP
 
 - Create a Github repo
 
@@ -27,17 +26,24 @@ For each environment AWS, Azure, and GCP
   - touch test_hello.py
   - touch requirements.txt
 
-- Create a separate environment to avoid conflicting packages
+- Create a virtual environment to avoid conflicting packages
   - python3 -m venv ~/.github-actions-demo
   - source ~/.github-actions-demo/bin/activate
 
 - Run Makefile - choose custom for each environment (AWS, Azure, GCP)
   - make install
+  - make lint
+  - make test
+  - make format
+  - or you can add a all: intstall lint test
   
  ## Steps for Creating GitHub Actions
  
  - Choose Actions in GitHub
   - Create new workflow
-  - Assign name in this case I will assign it the name azure.yml
-  - Copy a config or create new
-  - Edit the yaml
+  - Name your workflow
+  - Edit the main.yml (copy a template or create new)
+  - select your workflow to review the build for success
+  - If successfully you can copy the badge and paste in your readme
+
+
