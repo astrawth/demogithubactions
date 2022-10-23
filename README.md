@@ -29,8 +29,8 @@ Demo for Cloud computing class
   - touch requirements.txt
 
 - Create a virtual environment to avoid conflicting packages
-  - python3 -m venv ~/.github-actions-demo
-  - source ~/.github-actions-demo/bin/activate
+  - python3 -m venv ~/.demogithubactions
+  - source ~/.demogithubactions/bin/activate
 
 - Run Makefile - choose custom for each environment (AWS, Azure, GCP)
   - make install
