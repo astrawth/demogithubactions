@@ -15,7 +15,7 @@ For each environment AWS, Azure, and GCP
 
 - Clone the repo
   - git clone https://github.com/astrawth/name-of-repo
-  - in this case: https://github.com/astrawth/Demo-GitHub-Actions.git
+  - in this case: https://github.com/astrawth/demogithubactions.git
   - *copy repo name from code button*
 
 - Create scaffold (unless you forked a project)
